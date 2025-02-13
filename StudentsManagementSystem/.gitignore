@@ -1,10 +1,15 @@
 HELP.md
 target/
+.settings/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# !**/src/main/**/target/
+# !**/src/test/**/target/
+**/src/main/**/target/
+**/src/test/**/target/
+*.env
 
 ### STS ###
+.metadata/
 .apt_generated
 .classpath
 .factorypath
@@ -14,7 +19,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr

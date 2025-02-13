@@ -60,6 +60,6 @@ public class StudentController {
 
     @PutMapping("id/{id}")
     public Student updateStudentById(@PathVariable long id, @RequestBody Student student) {
-	return studentEntry.put(id, student);
+	return studentEntry.replace(id, student);
     }
 }
