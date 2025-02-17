@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+E:\ANP-C7699\Advance Java\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-24858378.index
-3833508784.index
-2685836070.index
