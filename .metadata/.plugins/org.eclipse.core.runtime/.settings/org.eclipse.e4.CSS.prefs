@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.ClassID.color=240,0,240
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.Declaration.color=0,80,240
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.Element.color=82,210,82
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.comment.color=147,164,134
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.default.color=255,255,255
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.error.color=126,103,160
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.keyword.color=57,183,255
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.number.color=15,255,255
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.punctuation.color=8,216,216
+org.eclipse.e4.CSS.syntaxColorer.tokenStyles.string.color=255,215,57
+overriddenByCSS=,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.Element.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.number.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.Declaration.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.error.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.punctuation.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.keyword.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.comment.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.default.color,org.eclipse.e4.CSS.syntaxColorer.tokenStyles.string.color,

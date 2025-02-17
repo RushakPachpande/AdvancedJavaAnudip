@@ -1,3 +1,4 @@
+
 package com.anudip.sms.model;
 
 import lombok.AllArgsConstructor;
@@ -12,7 +13,9 @@ import lombok.Setter;
 public class Student {
 
 	private long id;
+
 	private String name;
+
 	private int rollNo;
 
 }

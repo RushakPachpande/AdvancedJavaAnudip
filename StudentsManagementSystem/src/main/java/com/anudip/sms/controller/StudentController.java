@@ -1,3 +1,4 @@
+
 package com.anudip.sms.controller;
 
 import java.util.ArrayList;
@@ -42,28 +43,23 @@ public class StudentController {
 	}
 
 	@PostMapping
-	public boolean createEntry(@RequestBody
-	Student myEntry) {
+	public boolean createEntry(@RequestBody Student myEntry) {
 		studentEntry.put(myEntry.getId(), myEntry);
 		return true;
 	}
 
 	@GetMapping("/id/{id}")
-	public Student getStudentById(@PathVariable
-	long id) {
+	public Student getStudentById(@PathVariable long id) {
 		return studentEntry.get(id);
 	}
 
 	@DeleteMapping("id/{id}")
-	public Student deleteStudentById(@PathVariable
-	long id) {
+	public Student deleteStudentById(@PathVariable long id) {
 		return studentEntry.remove(id);
 	}
 
 	@PutMapping("id/{id}")
-	public Student updateStudentById(@PathVariable
-	long id, @RequestBody
-	Student student) {
+	public Student updateStudentById(@PathVariable long id, @RequestBody Student student) {
 		return studentEntry.replace(id, student);
 	}
 
