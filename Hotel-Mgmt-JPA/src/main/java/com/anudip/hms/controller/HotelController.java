@@ -63,12 +63,7 @@ public class HotelController {
 	public ResponseEntity<Void> deleteHotel(@PathVariable Long id) {
 		boolean isDeleted = hotelService.deleteHotel(id);
 
-//		isDeleted ? return ResponseEntity.noContent().build(); : return ResponseEntity.notFound().build();
-		
-		if (isDeleted) {
-			return ResponseEntity.noContent().build();
-		}
-		else return ResponseEntity.notFound().build();
+		return isDeleted ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build();
 
 	}
 
