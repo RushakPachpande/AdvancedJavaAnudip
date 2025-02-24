@@ -5,6 +5,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Hotel {
@@ -13,8 +15,12 @@ public class Hotel {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	@NotBlank(message = "Name Required")
+	@Size(min = 2, max = 20)
 	private String name;
 
+	@NotBlank(message = "Hotel Type Required")
+	@Size(max = 8)
 	private String hotelType;
 
 	private String quality;
